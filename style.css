@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(56, 46, 46);
+    color: rgb(10, 10, 10);
+}
+
+body {
+    font-family: "roboto slab", serif;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+
+/*NavBar*/
+header,
+footer {
+    color: rgb(47, 34, 235);
+    font-size: large;
+    background-color: #111010;
+    width: 100vw;
+}
+
+nav {
+    padding: 1em;
+    width: 100%;
+}
+
+.nav_ul  {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav a {
+    color: rgb(64, 136, 209);
+    text-decoration: none;
+}
+
+#search {
+    border: none;
+    border-radius: 100px;
+    padding: 8px 0 8px 29px;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.nav-li6 {
+    position: relative;
+}
+
+.nav_li6 img.search{
+position: absolute;
+margin-top: 6px;
+margin-left: 5px;
+}
+
+img,
+button {
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.btn.nav_li7,
+.btn.nav_li8,
+button {
+    background-color: #000000;
+    border:3px solid black;
+    border-radius:6px;
+    padding: 6px 14px;
+}
+
+.btn.nav_li7 a,
+.btn.nav_li8 a{
+    color:rgb(0, 0, 0);
+}
+
