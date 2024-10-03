@@ -288,3 +288,62 @@ button {
   color: rgb(253, 253, 253);
 }
 
+/* Contact us page css */ 
+
+.background-page{
+  background-image: url(/img/headphone1.png);
+  background-position: center;
+  background-size: cover;
+  background-color: #777;
+  margin-top: -30px;
+  margin-bottom: -30px;
+}
+
+.contact-contaneir {
+  background-color: rgba(255, 255, 255, 0.496);
+  padding: 30px;
+
+}
+
+lable{
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+input[type="text"],
+input[type="email"]'
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+border-color: #007BFF;
+outline: none;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  width: 100%
+  padding: 10px;
+  background-color: #007BFF;
+  color: white;
+  border:none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
